@@ -1,38 +1,73 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-bar{
+list-style-type: none;  
+display: flex;
+justify-content: flex-end;
+gap: 10px;
+margin-right: 39px;
+max-width: 77%;
+position: relative;
+font-family: sans-serif;
+top: 18px;
+transition: color 0.3s ease;
+}
+.nav-bar-item {
+  transition: color 0.3s ease;
+}
+.nav-bar-item:hover {
+  color: blue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-bar-button{
+  position: absolute;
+  right: 0%;
+  top: 33px;
+  margin-right: 180px;
+  border-radius: 8px;
+    color: blue;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-bar-img{
+  position: absolute;
+  right: 65%;
+  top: 18px;
+  margin-right: 180px;
 }
 
-.App-link {
-  color: #61dafb;
+.main-banner {
+  height: 562px;
+  position: relative;
+  z-index: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg_cover {
+  background-image: url('https://thepixelcurve.com/html/techwix/img/slider-img.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 }
+
+.main-banner-content {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.main-banner-content h3 {
+  margin-bottom: 12px;
+  font-size: 17px;
+  font-family: "Outfit", sans-serif;
+  color: #086ad8;
+}
+
+.main-banner-content h1{
+  font-size: 2.7rem;
+  margin: 0;
+  line-height: 58px;
+  font-family: "Outfit", sans-serif;
+  color: #fafafafd;
+}
+
