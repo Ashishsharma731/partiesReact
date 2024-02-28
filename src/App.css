@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+.nav-bar{
+list-style-type: none;  
+display: flex;
+justify-content: flex-end;
+gap: 10px;
+margin-right: 39px;
+max-width: 77%;
+position: relative;
+font-family: sans-serif;
+top: 18px;
+transition: color 0.3s ease;
+}
+.nav-bar-item {
+  transition: color 0.3s ease;
+}
+.nav-bar-item:hover {
+  color: blue;
+}
+
+.nav-bar-button{
+  position: absolute;
+  right: 0%;
+  top: 18px;
+  margin-right: 110px;
+  /* border-radius: 8px; */
+  color: rgb(255, 255, 255);
+  background-color: #086ad8;
+  border: 0;
+  padding: 0 30px;
+  font-size: 16px;
+  line-height: 48px;
+  border-radius: 5px
+}
+
+.nav-bar-img{
+  position: absolute;
+  right: 65%;
+  top: 18px;
+  margin-right: 180px;
+}
+
+.main-banner {
+  height: 562px;
+  position: relative;
+  z-index: 1;
+}
+
+.bg_cover {
+  background-image: url('https://thepixelcurve.com/html/techwix/img/slider-img.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+/* .bg_cover_image{
+  background-image: url('https://thepixelcurve.com/html/techwix/img/slider-img.jpg');
+} */
+
+.main-banner-content {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.main-banner-content h3 {
+  margin-bottom: 12px;
+  font-size: 17px;
+  font-family: "Outfit", sans-serif;
+  color: #086ad8;
+}
+
+.main-banner-content h1{
+  font-size: 2.7rem;
+  margin: 0;
+  line-height: 58px;
+  font-family: "Outfit", sans-serif;
+  color: #fafafafd;
+}
+
