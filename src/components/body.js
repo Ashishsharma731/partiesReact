@@ -5,7 +5,7 @@ function Body_design() {
     
     return(
     <>
-    <div className="main-banner bg_cover main-banner-content">
+    <div className="main-banner bg_cover bg_cover_image main-banner-content">
         <h3>
 <Typewriter
   options={{
