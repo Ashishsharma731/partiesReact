@@ -1,7 +1,7 @@
 import React from "react";
 import Container from 'react-bootstrap/Container';
 import { Link, Outlet } from "react-router-dom";
-function Navigation() {
+function Header() {
 
     return(
         <>
@@ -14,7 +14,7 @@ function Navigation() {
             </div>
         <div>
             <ul className="nav-bar">
-                <li className="nav-bar-item" ><Link to="/header">Home</Link></li>
+                <li className="nav-bar-item" ><Link to="/apiget">Home</Link></li>
                 <li className="nav-bar-item">Demo</li>
                 <li className="nav-bar-item">Features</li>  
                 <li className="nav-bar-item">Support</li>
@@ -29,4 +29,4 @@ function Navigation() {
         </>
     )
 }
-export default Navigation
+export default Header

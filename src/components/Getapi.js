@@ -1,6 +1,6 @@
 //Checking for git
 import React, { useEffect, useState } from "react";
-function Header() {
+function APIget() {
     const [apidata,setApidata] = useState([]);
     
     useEffect(()=>{
@@ -31,4 +31,4 @@ function Header() {
         </>
     )
 }
-export default Header;
+export default APIget;
